@@ -160,31 +160,29 @@ nav a:hover{
   }
   .body h3{
       color: black !important;
-      font-weight: 600;
-      font-size: 25px;
+      font-weight: 900;
+      font-size: 30px;
   }
   .body h6{
     color: rgb(104, 99, 99) !important;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 24px;
 }
   .body p{
       margin-top: 20px;
-      font-size: 16px;
-      font-weight: 400;
+      font-size: 22px;
+      font-weight: 500;
   }
   .border img{
       width: 100%;
-      height: 240px;
+      height: 270px;
       border: none;
-      border-radius: 50%;
   }
   .border{
       border: 5px solid gray;
-      border-radius: 50%;
       width: 45%;
-      height: 250px;
-      margin-left: 100px;
+      height: 280px;
+      margin-left: 320px;
   }
   #Skill{
       margin-top: 100px;
@@ -203,7 +201,8 @@ nav a:hover{
   }
   #work p, #work2 p{
       margin-top: 50px;
-      font-size: 18px;
+      font-size: 25px;
+      font-weight: 500;
   }
   strong{
       color: brown;
