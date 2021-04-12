@@ -13,14 +13,81 @@ SOCIAL: @IBN_YAHYAH(TWITTER)
   padding: 0;
 }
 body {
-  background-color: whitesmoke;
+  overflow: hidden;
+  background-color: black;
+  color: black;
   font-family: 'Courier New', Courier, monospace;
 }
+/* LOADER */
 
+.loader-container{
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.loader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    border: 20px solid;
+    border-top-color: red;
+    border-bottom-color: green;
+    border-left-color: white;
+    border-right-color: aqua;
+    border-radius: 50%;
+    animation: spin 2s infinite linear;
+}
+@keyframes spin{
+    from {
+        transform: translate(-50%, -50%)rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%)rotate(360deg);
+    }
+} 
+#coming {
+  text-align: center;
+  margin-top: 200px;
+  animation-name: bounce;
+  animation-duration: 3s;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation-iteration-count: infinite;
+  color: white;
+}
+
+@keyframes bounce {
+  70% {
+    transform: translateY(0%);
+  }
+  80% {
+    transform: translateY(-15%);
+  }
+  90% {
+    transform: translateY(0%);
+  }
+  95% {
+    transform: translateY(-7%);
+  }
+  97% {
+    transform: translateY(0%);
+  }
+  99% {
+    transform: translateY(-3%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 /* HEADER */
 header {
   background-color: black;
-  color: antiquewhite;
+  /* color: antiquewhite; */
   text-align: center;
 }
 nav {
@@ -42,10 +109,10 @@ li {
 }
 nav a{
     text-decoration: none;
-    color: aliceblue;
+    /* color: aliceblue; */
 }
 nav a:hover{
-    color: whitesmoke;
+    /* color: whitesmoke; */
     font-weight: 800;
 }
 .header {
@@ -164,7 +231,7 @@ nav a:hover{
       font-size: 30px;
   }
   .body h6{
-    color: rgb(104, 99, 99) !important;
+    /* color: rgb(104, 99, 99) !important; */
     font-weight: 600;
     font-size: 24px;
 }
