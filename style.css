@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* 
 NAME: IBN_YAHYAH
 OCCUPATION: FRONTEND_WEB_DEVELOPER
@@ -324,4 +325,330 @@ nav a:hover{
       margin: 3em;
       margin: auto;
     }
+=======
+/* 
+NAME: IBN_YAHYAH
+OCCUPATION: FRONTEND_WEB_DEVELOPER
+SOCIAL: @IBN_YAHYAH(TWITTER)
+        @BN IBN(FACEBOOK)
+        @IBN_YAHYAH(LINKDEN)
+        @IBN_YAHYAH(DISCORD)
+        @IBN_YAHYAH(SLLACK)
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow: hidden;
+  background-color: black;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+}
+/* LOADER */
+
+.loader-container{
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin-top: 200px;
+}
+#coming {
+  text-align: center;
+  margin-top: 200px;
+  animation-name: bounce;
+  animation-duration: 3s;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation-iteration-count: infinite;
+  color: white;
+}
+
+@keyframes bounce {
+  70% {
+    transform: translateY(0%);
+  }
+  80% {
+    transform: translateY(-15%);
+  }
+  90% {
+    transform: translateY(0%);
+  }
+  95% {
+    transform: translateY(-7%);
+  }
+  97% {
+    transform: translateY(0%);
+  }
+  99% {
+    transform: translateY(-3%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+/* HEADER */
+header {
+  background-color: black;
+  /* color: antiquewhite; */
+  text-align: center;
+}
+nav {
+  position: relative;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: transparent;
+}
+ul {
+  display: inline-flex;
+  margin-top: 20px;
+}
+li {
+  list-style: none;
+  font-size: 20px;
+  margin-left: 25px;
+}
+nav a{
+    text-decoration: none;
+    /* color: aliceblue; */
+}
+nav a:hover{
+    /* color: whitesmoke; */
+    font-weight: 800;
+}
+.header {
+  margin-top: 50px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/* ANIMATION */
+#head {
+  margin-top: 200px;
+  margin-bottom: 5px;
+  animation-name: bounce;
+  animation-duration: 3s;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  70% {
+    transform: translateY(0%);
+  }
+  80% {
+    transform: translateY(-15%);
+  }
+  90% {
+    transform: translateY(0%);
+  }
+  95% {
+    transform: translateY(-7%);
+  }
+  97% {
+    transform: translateY(0%);
+  }
+  99% {
+    transform: translateY(-3%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+#hea {
+  animation-name: fade;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes fade {
+  0% {
+    color: rebeccapurple;
+  }
+  25% {
+    color: red;
+  }
+  50% {
+    color: rgb(126, 153, 51);
+  }
+  75% {
+    color: rgb(51, 153, 51);
+  }
+  100% {
+    color: rgb(82, 52, 68);
+  }
+}
+#he {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  animation-name: fade-in;
+  animation-duration: 3s;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation-iteration-count: infinite;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}
+
+#hes {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  backface-visibility: visible !important;
+  animation: bounce-in-right 2s;
+}
+@keyframes bounce-in-right {
+    0% {
+      opacity: 0;
+      transform: translateX(2000px);
+    }
+    60% {
+      opacity: 1;
+      transform: translateX(-30px);
+    }
+    80% { transform: translateX(10px); }
+    100% { transform: translateX(0); }
+  }
+
+
+  /* continuation of body styling after animation */
+
+  .body{
+      margin-top: 100px;
+      
+  }
+  .body h3{
+      color: black !important;
+      font-weight: 900;
+      font-size: 30px;
+  }
+  .body h6{
+    /* color: rgb(104, 99, 99) !important; */
+    font-weight: 600;
+    font-size: 24px;
+}
+  .body p{
+      margin-top: 20px;
+      font-size: 22px;
+      font-weight: 500;
+  }
+  .border img{
+      width: 100%;
+      height: 270px;
+      border: none;
+  }
+  .border{
+      border: 5px solid gray;
+      width: 45%;
+      height: 280px;
+      margin-left: 320px;
+  }
+  #Skill{
+      margin-top: 100px;
+  }
+  #SKill h2{
+    font-weight: 800 !important;
+  }
+  #work, #work2{
+      margin-top: 50px;
+      margin-bottom: 20px;
+  }
+  #work img, #work2 img{
+      width: 80%;
+      height: 300px;
+      box-shadow: 20px, 39px;
+  }
+  #work p, #work2 p{
+      margin-top: 50px;
+      font-size: 25px;
+      font-weight: 500;
+  }
+  strong{
+      color: brown;
+      font-weight: 900;
+  }
+  #work2{
+      margin-bottom: 100px;
+  }
+  footer{
+      background-color: black;
+      color: white;
+      padding: 30px 0 20px 0;
+      text-align: justify;
+  }
+  input{
+      margin-top: 20px;
+      background-color: transparent;
+      border: 1px solid whitesmoke;
+      outline: none;
+      width: 90%;
+      height: 40px;
+      font-size: 16px;
+  }
+
+  form a{
+      margin-top: 10px;
+      background-color: aliceblue;
+      border: none;
+      width: 80%;
+      padding: 10px 20px 10px 20px;
+      color: black;
+  }
+  form a:hover {
+      color: aliceblue;
+      background-color: chocolate;
+  }
+  #icon a{
+      color: aliceblue;
+  }
+  #icon a:hover{
+    color: chocolate;
+}
+
+/* Media query */
+
+@media screen and (max-width: 720px){
+    .body{
+        margin-left: 30px;
+    }
+    .border{
+        margin: 50px 0 0 150px;
+    }
+    #Skill, #work, #work2{
+        margin-left: 30px;
+    }
+    .shadow{
+        width: 80%;
+        margin-left: 20px;
+    }
+    form>input{
+        width: 50%;
+        margin-left: 20px;
+    }
+    form>a{
+        margin-top: 80px;
+        margin-left: 20px;
+    }
+    #ab, #icon{
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    #coming{
+      margin: 4em;
+    }
+>>>>>>> fa8d2f7609338f9b52c19985a473b0616e5a4fc8
 }
