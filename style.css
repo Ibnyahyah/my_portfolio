@@ -253,15 +253,15 @@ nav a:hover{
     .body{
         margin-left: 30px;
     }
-    .border{
-        margin: 50px 0 0 150px;
+     img{
+      width: 100% !important;
     }
-    #Skill, #work, #work2{
-        margin-left: 30px;
+    .border{
+        width: 60%;
+        margin: auto !important;
     }
     .shadow{
-        width: 80%;
-        margin-left: 20px;
+        width: 100% !important;
     }
     form>input{
         width: 50%;
