@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+    color: rgb(8, 8, 48);
+    font-family: "manrope", sans-serif;
+    margin:auto;
+}
+.main{
+    width: 80%;
+}
+.header{
+    margin-bottom: 300px;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 60px;
+    margin-top: 250px;
+    margin-bottom: 50px;
+}
+span{
+    color: salmon;
+}
+h2{
+    font-weight: 600;
+    font-size: 35px;
+    text-transform: uppercase; 
+    margin-bottom: 40px;
+    text-align: center;
+}
+.btn-know-more{
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 600;
+    border: 2px solid salmon;
+    color: salmon;
+    padding: 5px 15px;
+    transition: all 1s ease-in-out;
+}
+.btn-know-more:hover{
+    background-color: salmon;
+    color: white;
+}
+.about-me, .contact-me{
+    background-color: salmon;
+    color: white;
+    margin: auto;
+}
+.about-row{
+    width: 60%;
+    margin: auto;
+}
+.paragraph{
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 50px;
+}
+.btn-about{
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 600;
+    border: 2px solid white;
+    color: white;
+    padding: 5px 15px;
+    transition: all 1s ease-in-out;
+}
+.btn-about:hover{
+    background-color: white;
+    color: salmon;
+}
+.project{
+    margin-bottom: 100px;
+}
+.project-row{
+    width: 70%;
+    margin: auto;
+}
+h3{
+    font-weight: 700;
+}
+.contact-me{
+    padding: 100px;
+}
+.btn-view-site{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid salmon;
+    color: salmon;
+    padding: 5px 15px;
+    transition: all 1s ease-in-out;
+}
+.btn-view-site:hover{
+    background-color: salmon;
+    color: white;
+}
+.btn-view-code{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid white;
+    color: salmon;
+    padding: 5px 15px;
+}
+.btn-view-code:hover{
+    transition: all 1s ease-in-out;
+    font-size: 23px;
+    color: salmon;
+}
+footer{
+    background-color: black;
+    text-align: center;
+}
+#footer-div{
+    display: flex;
+    justify-content: center;
+}
+li{
+    list-style: none;
+    margin: 20px;
+}
+.hr{
+    border: 0.1px solid rgb(161, 160, 160);
+    margin: auto;
+}
+.btn-footer{
+    color: white;
+}
+.btn-footer:hover{
+    color: rgb(185, 184, 184);
+}
+
+
+
+@media screen and (max-width: 420px){
+    .header{
+        text-align: center;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .about-row{
+        width: 90%;
+        text-align:center;
+    }
+    .img{
+        text-align: center;
+    }
+}
