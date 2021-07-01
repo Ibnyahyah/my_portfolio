@@ -75,6 +75,7 @@ h2{
 }
 .project{
     margin-bottom: 100px;
+    width: 80%;
 }
 .project-row{
     width: 70%;
@@ -134,10 +135,24 @@ li{
 .btn-footer:hover{
     color: rgb(185, 184, 184);
 }
+@media screen and (max-width:1024px){
+    .about-row{
+     width: 80%;
+}
+}
+@media screen and (max-width: 768px){
+    .project-row{
+    margin-left: -70px;
+    width: 120%;
+    text-align: center;
+}
+.about-row{
+     width: 100%;
+     margin: auto;
+}
+}
 
-
-
-@media screen and (max-width: 420px){
+@media screen and (max-width: 430px){
     .header{
         text-align: center;
     }
@@ -147,8 +162,27 @@ li{
     .about-row{
         width: 90%;
         text-align:center;
+        margin: auto;
     }
     .img{
         text-align: center;
     }
+    .project-row{
+        margin-left: -27px;
+    width: 120%;
+    text-align: center;
+}
+}
+@media screen and (max-width: 320px){
+     .project-row{
+        margin-left: -35px;
+    width: 140%;
+    text-align: center;
+}
+/* .img-ibn{
+    width: 200px !important;
+    height: 200px !important;
+    margin-left: -50px;
+} */
+
 }
